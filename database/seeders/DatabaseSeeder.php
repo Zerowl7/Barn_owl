@@ -21,7 +21,15 @@ class DatabaseSeeder extends Seeder
 
             ProductSeeder::class,
 
-            ConnectionSeeder::class,
+            DocumentReceiptProductSeeder::class,
+
+            DocumentSaleProductSeeder::class,
+
+            DocumentMovementProductSeeder::class,
+
+            MovementProductSeeder::class,
+
+            MovementDocumentSeeder::class,
 
         
             

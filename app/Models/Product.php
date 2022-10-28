@@ -4,6 +4,7 @@ namespace App\Models;
 use App\Models\Connection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\MovementProduct;
 
 class Product extends Model
 {
@@ -18,8 +19,8 @@ class Product extends Model
 
     use HasFactory;
 
-    public function connection()
+    public function movementproduct()
     {
-        return  $this->hasMany(Connection::class);
+        return  $this->hasMany(MovementProduct::class);
     }
 }
