@@ -17,7 +17,7 @@ class CreateMovementDocumentsTable extends Migration
             $table->id();
             $table->string('type');
             $table->integer('doc_id')->index();
-            $table->integer('stock');
+            $table->integer('amt');
 
             $table->foreignId('stock_id')->references('id')->on('stocks')->onDelete('cascade');
             $table->timestamps();

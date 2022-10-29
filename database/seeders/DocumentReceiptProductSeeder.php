@@ -16,30 +16,26 @@ class DocumentReceiptProductSeeder extends Seeder
     {
         $moves = [
             [
-                'stock' => '20',
-
+                'amt' => '20',
                 'type' => 'DocumentReceiptProduct',
-                'title' => 'Документ Покупки',
+                'title' => 'Поступление товара',
                 'stock_id' => '1',
-               
-                
-
-            ],
+           ],
             [
-                'stock' => '30',
+                'amt' => '30',
 
                 'type' => 'DocumentReceiptProduct',
-                'title' => 'Документ Покупки',
+                'title' => 'Поступление товара',
                 'stock_id' => '2',
 
                 
 
             ],
             [
-                'stock' => '10',
+                'amt' => '10',
 
                 'type' => 'DocumentReceiptProduct',
-                'title' => 'Документ Покупки',
+                'title' => 'Поступление товара',
                 'stock_id' => '3',
 
                 

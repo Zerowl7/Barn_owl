@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class DocumentMovementProduct extends Model
 {
     use HasFactory;
+
+    public function stock()
+     {
+         return  $this->belongsTo(Stock::class);
+     }
 }

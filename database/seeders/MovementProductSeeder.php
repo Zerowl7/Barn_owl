@@ -16,7 +16,7 @@ class MovementProductSeeder extends Seeder
     {
         $moves = [
             [
-                'stock' => '20',
+                'amt' => '20',
                 'doc_id' => '1',
                 'doc_type' => 'DocumentSaleproduct',
                 'stock_id' => '1',
@@ -25,7 +25,7 @@ class MovementProductSeeder extends Seeder
 
             ],
             [
-                'stock' => '20',
+                'amt' => '20',
 
                 'doc_id' => '2',
                 'doc_type' => 'DocumentSaleproduct',
@@ -35,7 +35,7 @@ class MovementProductSeeder extends Seeder
 
             ],
             [
-                'stock' => '20',
+                'amt' => '20',
 
                 'doc_id' => '3',
                 'doc_type' => 'DocumentSaleproduct',

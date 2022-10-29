@@ -16,7 +16,13 @@ class AdminSectionsServiceProvider extends ServiceProvider
 
         \App\Models\Stock::class => 'App\Http\Admin\Stocks',
         \App\Models\Product::class => 'App\Http\Admin\Products',
-        \App\Models\Connection::class => 'App\Http\Admin\Connections',
+        \App\Models\MovementProduct::class => 'App\Http\Admin\MovementProducts',
+
+        \App\Models\DocumentReceiptProduct::class => 'App\Http\Admin\DocumentReceiptProducts',
+        \App\Models\DocumentSaleProduct::class => 'App\Http\Admin\DocumentSaleProducts',
+        
+        \App\Models\DocumentMovementProduct::class => 'App\Http\Admin\DocumentMovementProducts',
+        \App\Models\MovementDocument::class => 'App\Http\Admin\MovementDocuments',
          
     ];
 

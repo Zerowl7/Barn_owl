@@ -16,7 +16,7 @@ class DocumentSaleProductSeeder extends Seeder
     {
         $moves = [
             [
-                'stock' => '-10',
+                'amt' => '-10',
 
                 'type' => 'DocumentSaleProduct',
                 'title' => 'Документ Продажи',
@@ -26,7 +26,7 @@ class DocumentSaleProductSeeder extends Seeder
 
             ],
             [
-                'stock' => '-10',
+                'amt' => '-10',
 
                 'type' => 'DocumentSaleProduct',
                 'title' => 'Документ Продажи',
@@ -36,7 +36,7 @@ class DocumentSaleProductSeeder extends Seeder
 
             ],
             [
-                'stock' => '-10',
+                'amt' => '-10',
 
                 'type' => 'DocumentSaleProduct',
                 'title' => 'Документ Продажи',

@@ -15,7 +15,7 @@ class CreateMovementProductsTable extends Migration
     {
         Schema::create('movement_products', function (Blueprint $table) {
             $table->id();
-            $table->integer('stock');
+            $table->integer('amt');
             $table->bigInteger('doc_id')->index('doc_id');
             $table->string('doc_type')->index('doc_type');
             $table->foreignId('stock_id')->references('id')->on('stocks')->onDelete('cascade');
